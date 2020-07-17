@@ -1,0 +1,511 @@
+@font-face{
+  src: url('./Fonts/roboto/Roboto-Light.ttf');
+  font-family: cool;
+}
+
+body{
+  box-sizing: border-box;
+  color: black;
+  font-family: cool;
+  margin: 0;
+}
+
+nav{
+  width: 100%;
+  height: 105px;
+  margin: 0px;
+  background-color: rgba(0 , 0, 0, .9);
+  color: white;
+}
+
+nav .logo{
+  float: left;
+}
+
+nav .logo img{
+  height: 100px;
+  width: 35%;
+  padding: 0px;
+  margin-left: 20px;
+}
+
+nav .nav-list{
+  width: 50%;
+  float: left;
+  margin-left: 100px;
+}
+nav .nav-list ul li{
+  display: inline-block;
+  list-style: none;
+  font-size: 23px;
+  padding: 20px;
+}
+nav .nav-list ul li a{
+  text-decoration: none;
+  color: white;
+}
+nav .login{
+  width: 7%;
+  float: left;
+  font-size: 23px;
+  margin-top: 34px;
+  margin-left: 0px;
+  letter-spacing: 2px;
+}
+.upper{
+  display: flex;
+float: left;
+}
+
+.upper .tagline{
+  flex: 1;
+  color: black;
+  text-align: center;
+  margin-top: 90px;
+  width: 100%;
+  padding: 20px;
+}
+.upper .shop{
+  flex: 1;
+   
+}
+.upper .shop img{
+  width: 100%;
+  height: 700px; 
+}
+.upper .tagline .heading{
+  font-size: 35px;
+}
+.upper .tagline .heading h1{
+  font-weight: 500;
+}
+.upper .tagline .content{
+  font-size: 23px;
+  color: rgba(0 , 0, 0, .6);
+  margin: 0px 30px;
+}
+.upper .get{
+  display: inline-block;
+  border-radius: 25px;
+  background-color: red;
+  text-decoration: none;
+  padding: 6px;
+}
+.upper .get a{
+  text-decoration: none;
+  color:white;
+}
+.follow{
+ font-size: 23px;
+ color: rgba(0 , 0, 0, .6);
+}
+
+.follow .handle ul li{
+  display: inline-block;
+  list-style: none;
+  margin-right: 30px;
+}
+.follow .handle ul li a{
+  text-decoration: none;
+  color: rgba(0 , 0, 0, .6);
+}
+
+
+
+/* Features Section   -- Jayant*/
+.flex{
+  display:flex;
+}
+.center{
+  text-align: center;
+}
+.features-container{
+  margin-top: 5rem;
+  color:black;
+  font-family: cool ;
+}
+.features-container div{
+  width:50%;
+}
+.center img{
+  height: 600px;
+}
+#featureCardsContainer{
+  flex-direction: column;
+}
+#featureCardsContainer img{
+  height: 90px;
+  margin-top: 3em;
+  margin-right: 2rem;
+}
+#featureCardsContainer p{
+  font-size: larger;
+}
+#featureCardsContainer>div{
+  width:100%;
+  height:168px;
+}
+/* Features End------- */
+.testimonials{
+  margin-top: 10em;
+  padding-bottom: 10em;
+  text-align: center;
+  background-image: url("https://cdn.jsdelivr.net/gh/froala/design-blocks@master/dist/imgs//shapes/9.svg");
+  background-size: cover;
+}
+
+.testimonials .content{
+  margin:0px 18em;
+  color: rgba(0 , 0, 0, .6);
+}
+.testimonials .heading{
+  font-size: 30px;
+}
+.testimonials .cards{
+  display: flex;
+  margin: 0px 10em;
+  color: rgba(0 , 0, 0, .6);
+}
+.testimonials .cards .card-1{
+  flex: 33%;
+  width: 100%;
+  height: 25em;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 40px;
+  box-shadow:
+  0 28.5px 3.6px rgba(0, 0, 0, 0.02),
+  0 43.2px 10px rgba(0, 0, 0, 0.035),
+  0 59.3px 24.1px rgba(0, 0, 0, 0.049),
+  0 96px 80px rgba(0, 0, 0, 0.07)
+;
+color: rgba(0 , 0, 0, .6);
+}
+.testimonials .cards .card-1 .card{
+  display: flex;
+  font-size: 23 px;
+}
+.testimonials .cards .card-1 .card .img{
+  flex: 33%;
+  
+}
+.testimonials .cards .card-1 .card .img img{
+  height: 80px;
+  width: 100%;
+  border-radius: 10px;
+}
+.testimonials .cards .card-1 .card .name{
+  flex:66%;
+  height: 80px;
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.testimonials .cards .card-1 .card .name h5{
+  margin: 0px;
+  font-size: large;
+  font-weight: bold;
+  color: black;
+}
+.testimonials .cards .card-1 .quote{
+  font-size: 20px;
+}
+.testimonials .cards .card-2{
+  flex: 33%;
+  width: 100%;
+  height: 25em;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 40px;
+  box-shadow:
+  0 28.5px 3.6px rgba(0, 0, 0, 0.02),
+  0 43.2px 10px rgba(0, 0, 0, 0.035),
+  0 59.3px 24.1px rgba(0, 0, 0, 0.049),
+  0 96px 80px rgba(0, 0, 0, 0.07)
+;
+
+}
+.testimonials .cards .card-2 .card{
+  display: flex;
+  font-size: 23 px;
+}
+.testimonials .cards .card-2 .card .img{
+  flex: 33%;
+  
+}
+.testimonials .cards .card-2 .card .img img{
+  height: 80px;
+  width: 100%;
+  border-radius: 10px;
+}
+.testimonials .cards .card-2 .card .name{
+  flex:66%;
+  height: 80px;
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.testimonials .cards .card-2 .card .name h5{
+  margin: 0px;
+  font-weight: bold;
+  color: black;
+  font-size: large;
+}
+.testimonials .cards .card-2 .quote{
+  font-size: 20px;
+}
+.testimonials .cards .card-3{
+  flex: 33%;
+  width: 100%;
+  height: 25em;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 40px;
+  box-shadow:
+  0 28.5px 3.6px rgba(0, 0, 0, 0.02),
+  0 43.2px 10px rgba(0, 0, 0, 0.035),
+  0 59.3px 24.1px rgba(0, 0, 0, 0.049),
+  0 96px 80px rgba(0, 0, 0, 0.07)
+;
+
+}
+.testimonials .cards .card-3 .card{
+  display: flex;
+  font-size: 23 px;
+}
+.testimonials .cards .card-3 .card .img{
+  flex: 33%;
+  
+}
+.testimonials .cards .card-3 .card .img img{
+  height: 80px;
+  width: 100%;
+  border-radius: 10px;
+}
+.testimonials .cards .card-3 .card .name{
+  flex:66%;
+  height: 80px;
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.testimonials .cards .card-3 .card .name h5{
+  margin: 0px;
+  font-weight: bold;
+  color: black;
+  font-size: large;
+}
+.testimonials .cards .card-3 .quote{
+  font-size: 20px;
+}
+.team{
+  margin: 10em;
+  text-align: center;
+  color: black;
+  
+}
+.team .heading{
+  font-size: 33px;
+  margin: 0px;
+}
+.team .content{
+font-size: 25px;
+color: rgba(0 , 0, 0, .6);
+}
+.team .card{
+  display: flex;
+  text-align: left;
+}
+.team .card .card-1{
+  flex: 25%;
+  box-shadow:
+  0 28.5px 3.6px rgba(0, 0, 0, 0.02),
+  0 43.2px 10px rgba(0, 0, 0, 0.035),
+  0 59.3px 24.1px rgba(0, 0, 0, 0.049),
+  0 96px 80px rgba(0, 0, 0, 0.07)
+;
+margin: 0px 10px;
+border-radius: 5px;
+}
+.team .card .card-1 .img img{
+width: 100%;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+height: 17em;
+}
+.team .card .card-1 .name{
+  font-size: 27px;
+  padding: 10px;
+  font-weight: 700;
+}
+.team .card .card-1 .position{
+  color: rgba(0 , 0, 0, .6);
+  font-size: 22px;
+  padding:0px 0px 10px 10px;
+}
+.team .card .card-2{
+  flex: 25%;
+  box-shadow:
+  0 28.5px 3.6px rgba(0, 0, 0, 0.02),
+  0 43.2px 10px rgba(0, 0, 0, 0.035),
+  0 59.3px 24.1px rgba(0, 0, 0, 0.049),
+  0 96px 80px rgba(0, 0, 0, 0.07)
+;
+margin: 0px 10px;
+border-radius: 5px;
+}
+.team .card .card-2 .img img{
+width: 100%;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+height: 17em;
+}
+.team .card .card-2 .name{
+  font-size: 27px;
+  padding: 10px;
+  font-weight: 700;
+}
+.team .card .card-2 .position{
+  color: rgba(0 , 0, 0, .6);
+  font-size: 22px;
+  padding:0px 0px 10px 10px;
+}
+.team .card .card-3{
+  flex: 25%;
+  box-shadow:
+  0 28.5px 3.6px rgba(0, 0, 0, 0.02),
+  0 43.2px 10px rgba(0, 0, 0, 0.035),
+  0 59.3px 24.1px rgba(0, 0, 0, 0.049),
+  0 96px 80px rgba(0, 0, 0, 0.07)
+;
+margin: 0px 10px;
+border-radius: 5px;
+}
+.team .card .card-3 .img img{
+width: 100%;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+height: 17em;
+}
+.team .card .card-3 .name{
+  font-size: 27px;
+  font-weight: 700;
+  padding: 10px;
+}
+.team .card .card-3 .position{
+  color: rgba(0 , 0, 0, .6);
+  font-size: 22px;
+  padding:0px 0px 10px 10px;
+}
+.team .card .card-4{
+  flex: 25%;
+  box-shadow:
+  0 28.5px 3.6px rgba(0, 0, 0, 0.02),
+  0 43.2px 10px rgba(0, 0, 0, 0.035),
+  0 59.3px 24.1px rgba(0, 0, 0, 0.049),
+  0 96px 80px rgba(0, 0, 0, 0.07)
+;
+border-radius: 5px;
+margin: 0px 10px;
+}
+.team .card .card-4 .img img{
+width: 100%;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+height: 17em;
+}
+.team .card .card-4 .name{
+  font-size: 27px;
+  font-weight: 700;
+  padding: 10px;
+}
+.team .card .card-4 .position{
+  color: rgba(0 , 0, 0, .6);
+  font-size: 22px;
+  padding:0px 0px 10px 10px;
+}
+.contact{
+  background: url("https://cdn.jsdelivr.net/gh/froala/design-blocks@master/dist/imgs//hero/blue.svg");
+  background-position: fixed;
+  background-size: cover;
+  height: 40em;
+}
+.contact .heading{
+color: white;
+text-align: center;
+font-size: 35px;
+padding-top: 30px;
+}
+.contact .content{
+  color: white;
+  text-align: center;
+  font-size: 28px;
+}
+.contact .lol .name{
+  display: flex;
+  color: white;
+}
+.contact .lol{
+  margin: 0px 9em;
+}
+.contact .lol .name #name{
+  flex: 33%;
+  margin: 10px;
+border-radius: 5px;
+  padding: 10px;
+}
+.contact .lol .name #email{
+  flex: 33%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+
+}
+.contact .lol .name #number{
+  flex: 33%;
+  padding: 10px;
+  margin: 10px;
+border-radius: 5px;
+}
+.contact .lol .sub{
+  display: flex;
+}
+.contact .lol .sub #sub{
+  flex: 100%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.contact .lol .complaint{
+  display: flex;
+}
+.contact .lol .complaint #complaint{
+  flex: 100%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.contact .lol .center{
+  text-align: center;
+}
+.contact .lol .center #submit{
+  background-color: black;
+  border: 0px;
+  color: white;
+  width: 12%;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: larger;
+}
+.contact .lol .center #submit::hover{
+  background-color: rgba(0 , 0, 0, .6);
+}
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 2em;
+  font-size: 1rem;
+  padding: 25px;
+}
