@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const passport = require("passport");
+const path = require("path");
 const Order = require("./models/Order");
 const mongoose = require("mongoose");
 const flash = require("connect-flash");
@@ -138,6 +139,18 @@ app.post("/api/order/:id", (req, res) => {
     }
   });
 });
+
+//Serve static assetss if in production
+if (process.env.NODE_ENV === "production") {
+  //Set static folder
+  app.use(express.static("public/assets/home_page"));
+
+  app.get("*", (req, res) => {
+    res.sendFile(
+      path.resolve(__dirname, "public", "assets", "home_page", "home.html")
+    );
+  });
+}
 
 const PORT = process.env.PORT || 5000;
 
